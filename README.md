@@ -14,3 +14,7 @@ Ensure that your EEG recordings are in EDF format and that you have Excel files 
 4. There is no feature engineering.
 5. There is no window overlap to reduce class imbalance.
 6. Refer to the Excel file for column headers, which are used for preprocessing. Please note that patient data is not included due to privacy reasons. The provided Excel file is intended to help users clean their data to ensure compatibility with the script. Publicly available EEG datasets often use Excel or text files to store seizure information, such as the start and end times of seizure events.
+
+## TODO
+1. add an example of Excel
+2. add an example of numpy array
