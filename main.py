@@ -8,6 +8,7 @@ from mne.io import read_raw_edf
 import glob
 import pandas as pd
 from datetime import datetime, timedelta,date
+from eeg_preprocessing import *
 
 # Configurations
 patient_info = pd.read_excel('patients.xlsx', sheet_name='Seizure Information')
